@@ -26,3 +26,10 @@ Also needed were:
 The assignment process combined the test and training data files, and added the subject and activity indicators. We then retained just variables to do with mean and standard deviation, replaced activity IDs with descriptions and added readable variable names.
 
 With that tidy data frame, the final step was to calculate averages for each combination of subject and activity for each of the retained variables.
+
+To run this, you'd need the following packages:
+* base R
+* plyr (only used for an alternate result)
+* dplyr
+* stringr
+* reshape2
