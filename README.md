@@ -25,6 +25,8 @@ Also needed were:
 
 The assignment process combined the test and training data files, and added the subject and activity indicators. We then retained just variables to do with mean and standard deviation, replaced activity IDs with descriptions and added readable variable names.
 
+There was an ambiguous instruction in the assignment - it was not clear whether we should retain all variables with mean and std in the heading, or a smaller set. I chose to take the smaller set - those labelled mean() and std() - after reading the description of all the other variables and trying to understand them. This is something that, in real life, I'd have clarified with a client.
+
 With that tidy data frame, the final step was to calculate averages for each combination of subject and activity for each of the retained variables.
 
 To run this, you'd need the following packages:
